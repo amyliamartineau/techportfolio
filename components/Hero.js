@@ -38,6 +38,7 @@ font-weight: 400;
 color: #f9e6ff;
 margin-top: 0.5rem;
 letter-spacing: 1px;
+text-align: center;
 `;
 
 const Socials = styled.div`
@@ -61,11 +62,15 @@ export default function Hero() {
         <img src="/your-photo.jpg" alt="Amylia Martineau" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
         </Avatar>
         <Name>Amylia Martineau</Name>
-        <Tagline>Creative Technologist · Student · Mama · Forever Curious</Tagline>
+        <Tagline>
+        Creative Technologist · Student · Mama · Forever Curious <br />
+        <span style={{ fontSize: "1rem", color: "#e0cfff" }}>
+        (Not on social media—email or GitHub only)
+        </span>
+        </Tagline>
         <Socials>
-        <a href="https://github.com/amyliamartineau" target="_blank" rel="noopener noreferrer">🐙</a>
-        <a href="mailto:your@email.com">📧</a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">💼</a>
+        <a href="mailto:amyliamartineau@hotmail.com" title="Email">📧</a>
+        <a href="https://github.com/amyliamartineau" target="_blank" rel="noopener noreferrer" title="GitHub">🐙</a>
         </Socials>
         </HeroSection>
     );

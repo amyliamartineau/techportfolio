@@ -34,12 +34,14 @@ export default function Contact() {
         <h2>Let’s Connect</h2>
         <p>
         Want to collaborate, chat tech, or just say hi? <br />
-        Email me or connect on GitHub and LinkedIn!
+        Email me or check out my GitHub.<br />
+        <span style={{ fontSize: "1rem", color: "#e0cfff" }}>
+        (I’m not on social media right now)
+        </span>
         </p>
         <ContactLinks>
         <a href="mailto:amyliamartineau@hotmail.com" title="Email">📧</a>
         <a href="https://github.com/amyliamartineau" target="_blank" rel="noopener noreferrer" title="GitHub">🐙</a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" title="LinkedIn">💼</a>
         </ContactLinks>
         </ContactSection>
     );
