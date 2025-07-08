@@ -57,7 +57,7 @@ a {
 
 export default function Hero() {
     return (
-        <HeroSection as={motion.section} initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }}>
+        <HeroSection id="hero" as={motion.section} initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }}>
         <Avatar>
         <img src="/your-photo.jpg" alt="Amylia Martineau" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
         </Avatar>

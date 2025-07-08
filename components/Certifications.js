@@ -50,7 +50,7 @@ margin-bottom: 0.5rem;
 
 export default function Certifications() {
     return (
-        <CertSection>
+        <CertSection id="certifications">
         <h2>Certifications & Badges</h2>
         <CertGrid>
         <CertItem>

@@ -35,7 +35,7 @@ font-weight: 600;
 
 export default function About() {
     return (
-        <AboutSection as={motion.section} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
+        <AboutSection id="about" as={motion.section} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
         <Heading>About Amylia</Heading>
         <p>
         Self-taught Python dev, digital tinkerer, and tech explorer. Bilingual (French/English) and resourceful—I'm pivoting from admin and office life into the tech world, one online course, YouTube rabbit hole, and weekend project at a time.

@@ -34,7 +34,7 @@ const skills = [
 
 export default function Skills() {
     return (
-        <SkillsSection>
+        <SkillsSection id="skills">
         <h2>Skills</h2>
         <SkillsGrid>
         {skills.map((s, idx) => (

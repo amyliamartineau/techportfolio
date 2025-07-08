@@ -30,7 +30,7 @@ a {
 
 export default function Contact() {
     return (
-        <ContactSection>
+        <ContactSection id="contact">
         <h2>Let’s Connect</h2>
         <p>
         Want to collaborate, chat tech, or just say hi? <br />
