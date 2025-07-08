@@ -56,10 +56,11 @@ font-size: 1rem;
 
 const projects = [
     {
-        title: "Mood Dice: Board Game Edition",
+        title: "Mood Dice",
         desc: "A family-friendly, mobile-first web app that brings mood-boosting activities to your game night. Features fun categories, dice-rolling, and custom activities. 100% responsive and PWA-ready.",
-        img: "/mooddice-screenshot.png", // Use your new screenshot here!
+        img: "/mooddice-screenshot.png", // Your app icon screenshot here!
         live: "https://mooddice.netlify.app/",
+
     },
 {
     title: "This Portfolio",
@@ -79,11 +80,14 @@ export default function Projects() {
                 src={proj.img}
                 alt={`${proj.title} screenshot`}
                 style={{
-                    width: "100%",
-                    maxHeight: "140px",
-                    borderRadius: "12px",
-                    objectFit: "cover",
-                    marginBottom: "0.6rem"
+                    width: "96px",
+                    height: "96px",
+                    margin: "18px auto 14px auto",
+                    borderRadius: "18px",
+                    objectFit: "contain",
+                    background: "#ffeada",
+                    boxShadow: "0 2px 16px #ffb6e977",
+                    display: "block"
                 }}
                 />
             )}
