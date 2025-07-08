@@ -59,15 +59,11 @@ const projects = [
         title: "Mood Dice: Board Game Edition",
         desc: "A family-friendly, mobile-first web app that brings mood-boosting activities to your game night. Features fun categories, dice-rolling, and custom activities. 100% responsive and PWA-ready.",
         img: "/mooddice-screenshot.png", // Use your new screenshot here!
-        live: "https://helloamylia.vercel.app/mooddice",
-        github: "https://github.com/amyliamartineau/mood-dice-app",
+        live: "https://mooddice.netlify.app/",
     },
 {
     title: "This Portfolio",
     desc: "Personal site & digital playground — built with Next.js, styled-components, and a love of neon gradients.",
-    img: "/portfolio-screenshot.png", // Optional: screenshot of your portfolio
-    live: "https://helloamylia.vercel.app/",
-    github: "https://github.com/amyliamartineau/amylia-sleek-portfolio",
 }
 ];
 
